@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="zadanie.php">
+    Ilość ludzi:
+    <select name="people" id="people">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+    <br><br>
+    <label for="firstName">Imie:</label>
+    <input type="text" name="firstName" id="firstName" required>
+    <br>
+    <label for="$lastName">Nazwisko:</label>
+    <input type="text" name="$lastName" id="$lastName" required>
+    <br>
+    <label for="street">Adres:</label>
+    <input type="text" name="street" id="street" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <label for="cardNumber">Numer karty kredytowej:</label>
+    <input type="number" name="cardNumber" id="cardNumber" required>
+    <br>
+    <label for="cardDate">Data ważności karty:</label>
+    <input type="date" name="cardDate" id="cardDate" required>
+    <br>
+    <label for="cardCVV">CVV (3 cyfry z tyłu karty):</label>
+    <input type="number" name="cardCVV" id="cardCVV" min="0" max="999" required>
+    <br><br>
+    <label for="arrivalDate">Data przyjazdu:</label>
+    <input type="date" name="arrivalDate" id="arrivalDate" required>
+    <br>
+    <label for="departureDate">Data odjazdu:</label>
+    <input type="date" name="departureDate" id="departureDate" required>
+    <br><br>
+    <label for="addBed">Czy jest potrzeba dostawienia łózka dla dziecka?</label>
+    <input type="CHECKBOX" name="addBed" id="addBed">
+    <br><br>
+    Dodatkowe udogodnienia:
+    <br>
+    <label for="airConditioning">Klimatyzacja</label>
+    <input type="CHECKBOX" name="airConditioning" id="airConditioning">
+    <br>
+    <label for="cigaretteCase">Papielniczka</label>
+    <input type="CHECKBOX" name="cigaretteCase" id="cigaretteCase">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
