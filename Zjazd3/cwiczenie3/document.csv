@@ -1,0 +1,4 @@
+Imię;Nazwisko;Adres;Email;NumerKartyKredytowej;DataWażnościKarty;CCV;IlośćLudzi;DataPrzyjazdu;DataOdjazdu;DostawaŁóżka?;Klimatyzacja?;Papielniczka?
+Kamil;Powierza;jakis adres;jakisemail@gmail.com;1234123412341234;2023-04-30;512;4;2023-04-13;2023-04-30;yes;no;yes
+Ala;Nowak;awffw 8f78;test@gmail.com;4231421341234123;2023-04-23;123;2;2023-04-07;2023-04-23;no;yes;yes
+a;Powierza;jakis adres;jakisemail@gmail.com;123123123123123;2023-04-06;312;2;2023-04-06;2023-04-15;yes;no;no
